@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Aavhan CA | Admin Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-logo">
+      <img src="aavhan-logo.jpg" alt="Aavhan Logo">
+      Aavhan CA
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="register.html">Register</a></li>
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="admin.html">Admin</a></li>
+    </ul>
+  </nav>
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Admin Portal</h1>
+      <p>Manage ambassadors, verify tasks, and view analytics.</p>
+    </div>
+  </header>
+  <main class="sections">
+    <div class="cards-row">
+      <div class="card"><h2>Total Ambassadors</h2><div id="total-ambassadors">0</div></div>
+      <div class="card"><h2>Tasks Submitted</h2><div id="total-submissions">0</div></div>
+    </div>
+    <table class="admin-table" id="ambassador-table"></table>
+    <div id="admin-profile-view"></div>
+    <div class="motivation-banner" style="background:#eaf6ff;border-radius:12px;padding:18px;margin-top:30px;display:flex;align-items:center;gap:18px;">
+      <span class="icon" style="font-size:2rem;">💡</span>
+      <div>
+        <b>Tip:</b> Recognize top performers and encourage all ambassadors to stay active!
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-content">
+      <div class="footer-left">
+        <span class="footer-logo">Aavhan CA</span>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="dashboard.html">Dashboard</a></li>
+          <li><a href="admin.html">Admin</a></li>
+        </ul>
+        <div class="footer-social">
+          <a href="#" title="Instagram"><i class="fa fa-instagram"></i></a>
+          <a href="#" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+          <a href="#" title="Mail"><i class="fa fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="footer-right">
+        <div class="made-with">
+          Made with <span class="heart">♥</span> by Aavhan Web Team
+        </div>
+        <div class="copyright">
+          &copy; 2025 Aavhan CA. All rights reserved.
+        </div>
+      </div>
+    </div>
+  </footer>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="admin.js"></script>
+</body>
+</html>

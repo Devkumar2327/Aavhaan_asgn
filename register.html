@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Aavhan CA | Register</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-logo">
+      <img src="aavhan-logo.jpg" alt="Aavhan Logo">
+      Aavhan CA
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="register.html">Register</a></li>
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="admin.html">Admin</a></li>
+    </ul>
+  </nav>
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Register as a Campus Ambassador</h1>
+      <p>Fill in your details to join Aavhan CA 2025!</p>
+    </div>
+  </header>
+  <main class="sections">
+    <form id="caForm" autocomplete="off" novalidate>
+      <div class="form-group">
+        <label for="name">Name*</label>
+        <input type="text" id="name" required>
+        <span class="error" id="nameError"></span>
+      </div>
+      <div class="form-group">
+        <label for="email">Email*</label>
+        <input type="email" id="email" required>
+        <span class="error" id="emailError"></span>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number*</label>
+        <input type="tel" id="phone" required>
+        <span class="error" id="phoneError"></span>
+      </div>
+      <div class="form-group">
+        <label for="college">College*</label>
+        <input type="text" id="college" required>
+        <span class="error" id="collegeError"></span>
+      </div>
+      <div class="form-group">
+        <label for="year">Year of Study*</label>
+        <select id="year" required>
+          <option value="">Select</option>
+          <option>1st Year</option>
+          <option>2nd Year</option>
+          <option>3rd Year</option>
+          <option>4th Year</option>
+          <option>Other</option>
+        </select>
+        <span class="error" id="yearError"></span>
+      </div>
+      <div class="form-group">
+        <label for="instagram">Instagram Handle</label>
+        <input type="text" id="instagram" placeholder="@yourhandle">
+      </div>
+      <div class="form-group">
+        <label for="linkedin">LinkedIn Handle</label>
+        <input type="text" id="linkedin" placeholder="linkedin.com/in/yourprofile">
+      </div>
+      <div class="form-group">
+        <label for="additional">Additional Information</label>
+        <textarea id="additional" rows="3"></textarea>
+      </div>
+      <div class="cta">
+        <button type="submit" class="cta-btn">Submit Registration</button>
+      </div>
+      <div id="confirmation" class="confirmation"></div>
+    </form>
+  </main>
+  <footer>
+    <!-- (Same as index.html) -->
+    <div class="footer-content">
+      <div class="footer-left">
+        <span class="footer-logo">Aavhan CA</span>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="dashboard.html">Dashboard</a></li>
+          <li><a href="admin.html">Admin</a></li>
+        </ul>
+        <div class="footer-social">
+          <a href="#" title="Instagram"><i class="fa fa-instagram"></i></a>
+          <a href="#" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+          <a href="#" title="Mail"><i class="fa fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="footer-right">
+        <div class="made-with">
+          Made with <span class="heart">♥</span> by Aavhan Web Team
+        </div>
+        <div class="copyright">
+          &copy; 2025 Aavhan CA. All rights reserved.
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="register.js"></script>
+</body>
+</html>
